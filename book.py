@@ -9,7 +9,7 @@ class Book:
     def get_notes(self):
         return self.notes
 
-   def remove_note(self, note_title):
+    def remove_note(self, note_title):
     new_notes = []
     for note in self.notes:
         if note.title != note_title:
