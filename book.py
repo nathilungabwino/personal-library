@@ -10,8 +10,8 @@ class Book:
         return self.notes
 
     def remove_note(self, note_title):
-    new_notes = []
-    for note in self.notes:
-        if note.title != note_title:
-            new_notes.append(note)
-    self.notes = new_notes
+        new_notes = []
+        for note in self.notes:
+            if note.title != note_title:
+                new_notes.append(note)
+        self.notes = new_notes
